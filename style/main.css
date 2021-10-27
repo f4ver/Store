@@ -1,7 +1,7 @@
 .first-screen {
     position: absolute;
     width: 1920px;
-    height: 100px;
+    height: 964px;
     left: 0px;
     top: 0px;
 }
@@ -11,7 +11,7 @@
     object-fit: cover;
     position: absolute;
     width: 1920px;
-    height: 960px;
+    height: 964px;
     left: 0px;
     top: 0px;
     }
@@ -19,7 +19,7 @@
 .bgcolor {
     background: linear-gradient(0deg, rgba(51, 51, 51, 0.87), rgba(51, 51, 51, 0.87));
     width: 1920px;
-    height: 950px;
+    height: 964px;
 }
 
 .top-line {
