@@ -1,0 +1,29 @@
+.our-salon {
+    position: absolute;
+    width: 1920px;
+    height: 541px;
+    top: 2027px;
+}
+
+.salonBtn {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 15px 35px;
+
+position: absolute;
+width: 224px;
+height: 51px;
+left:830px;
+bottom: 150px;
+
+background: #FFFFFF;
+
+border: 1px solid #333333;
+box-sizing: border-box;
+transition: all 500ms ease;
+}
+.salonBtn:hover {
+    background: black;
+    color: white;
+}
