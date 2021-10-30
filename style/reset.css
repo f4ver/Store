@@ -38,7 +38,6 @@ aside, nav, footer, header, section, main {
  }
 
  p + p {
-     margin-top: 1em;
  }
 
 ul {
