@@ -1,7 +1,25 @@
+.body {
+    width: 1902px;
+    margin: 0;
+    height: 1075px;
+    top: 0;
+}
+@media all and (max-width:1899px) {
+    body {
+        width: 100%;
+        height: 80%;
+    }
+}
 .store-page {
     width: 1902px;
     margin: 0;
-    height: auto;
+    height: 1080px;
+    top: 0;
+}
+@media all and (max-width:1899px) {
+    .store-page {
+        width: 100%;
+    }
 }
 
 .first-screen {
@@ -11,6 +29,30 @@
     left: 0px;
     top: 0px;
 }
+@media all and (max-width:1899px) {
+    .first-screen {
+        width: 100%;
+        height: 80%;
+    }
+    .first-screen p {
+        font-size: 5px;
+        width: 80%;
+        left: 50px;
+    }
+}
+@media all and (max-width:375px) {
+    .first-screen {
+        width: 100%;
+        height: 80%;
+    }
+    .first-screen p {
+        font-size: 5px;
+        width: 80%;
+        left: 50px;
+        margin-top: -100px;
+    }
+}
+
 
 .main-ring {
     z-index: -1;
@@ -23,9 +65,6 @@
     }
 
 .bgcolor {
-    background: linear-gradient(0deg, rgba(51, 51, 51, 0.87), rgba(51, 51, 51, 0.87));
-    width: 1902px;
-    height: 964px;
 }
 
 .top-line {
@@ -36,6 +75,32 @@
     top: 35px;
     color: white;
 }
+@media  (max-width:1700px) {
+    .top-line a {
+        display: none;
+    }
+    .top-line  {
+        left:0;
+        width: 100%;
+    }
+}
+@media  (max-width:1700px) {
+    .left-column a {
+        display: none;
+    }
+}
+@media  (max-width:375px) {
+    .logo {
+        position: absolute;
+        left: 35px;
+    }
+}
+@media  (max-width:1920px) and (min-width:1919px){
+    .logo {
+        position: absolute;
+        left: 500px;
+    }
+}
 
 .left-column {
     margin-top: 10px;
@@ -44,7 +109,7 @@
 
 .footer {
     position: absolute;
-    width: 1902px;
+    width: 1900px;
     height: 40px;
     bottom: 0;
 }
@@ -56,13 +121,12 @@ a {
     text-decoration:underline;
 }
 .logo {
-    display: flex;
     position: absolute;
     width: 216px;
     height: 52px;
     top: 0px;
-    left: 500px;
 }
+
 .line-search {
     position: absolute;
     width: 78px;
@@ -86,7 +150,11 @@ a {
     right: -10%;
     top: 0px;
     margin: 10px;
-
+}
+@media all and (max-width:1919px) {
+    .account-links {
+        display: none;
+    }
 }
 
 .favicon-user {
@@ -104,7 +172,7 @@ p {
     position: absolute;
     width: 730px;
     height: auto;
-    left: 595px;
+    left: 590px;
     top: 600px;
     font-weight: bold;
     text-align: center;
@@ -133,6 +201,16 @@ background: #333333;
 border: 1px solid #FFFFFF;
 box-sizing: border-box;
 }
+@media  (max-width:375px) {
+    .catalogBtn {
+        width: auto;
+        left: auto;
+        right: auto;
+        left: 15%;
+        font-size: 20px;
+        margin-top: -100px;
+    }
+}
 .catalogBtn:hover {
     background-color: #fff;
     color: black;
@@ -144,8 +222,12 @@ width: 1902px;
 height: 0px;
 left: 0px;
 top: 830px;
-
 border: 1px solid #FFFFFF;
+}
+@media  (max-width:1700px) {
+    .separator {
+        display: none;
+    }
 }
 
 .first-screen-brands {
@@ -154,7 +236,11 @@ border: 1px solid #FFFFFF;
     height: 60px;
     left: 405px;
     top: 860px;
-
+}
+@media  (max-width:1899px) {
+    .first-screen-brands {
+        display: none;
+    }
 }
 .brand1 {
     display:inline-block;
