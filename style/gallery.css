@@ -1,0 +1,21 @@
+.gallery {
+    position: relative;
+    width: 1902px;
+    height: 1000px;
+    top: 2300px;
+}
+.container {
+    text-align: center;
+    position: relative;
+    height: auto;
+}
+.gallery-pic {
+    margin-top: 3%;
+    height: 600px;
+    width: 1120px;
+    margin-left: 20%;
+}
+.gallery-subj {
+    display: inline-block;
+    float: left;
+}

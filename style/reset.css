@@ -17,7 +17,7 @@ a, a:visited {
 }
 
 a:hover {
-    text-decoration-color: rgba(255, 255, 255, 1);
+    text-decoration-color: rgb(255, 255, 255);
   }
 
 a:focus,
@@ -27,17 +27,11 @@ a:active {
   
 /* Общее */
 
-aside, nav, footer, header, section, main {
-    display: block;
-}
 
  h1, h2, h3, h4, h5, h6, p {
      font-size: inherit;
      font-weight: inherit;
      line-height: inherit;
- }
-
- p + p {
  }
 
 ul {

@@ -1,0 +1,33 @@
+.footer {
+    position: relative;
+    width: 1110px;
+    height: 295px;
+    margin-top: 2153px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-block {
+    height: auto;
+    font-size: 18px;
+    width: 250px;
+    padding-top: 40px;
+    color: black;
+    font-family: 'Rubik',sans-serif;
+    border-bottom: 1px solid black;
+}
+.footer-content {
+    font-family: 'Rubik',sans-serif;
+    font-size: 14px;
+    height: auto;
+    width: 276px;
+    margin-top: 15px;
+}
+.footer-content ul {
+}
+.footer-content li {
+    padding: 15px;
+}
+.footer-all {
+    width: 270px;
+    display: inline-block;
+}

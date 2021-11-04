@@ -1,12 +1,12 @@
 .store-page {
-    width: 1920px;
+    width: 1902px;
     margin: 0;
-    height: 2500px;
+    height: auto;
 }
 
 .first-screen {
     position: absolute;
-    width: 1920px;
+    width: 1902px;
     height: 964px;
     left: 0px;
     top: 0px;
@@ -16,7 +16,7 @@
     z-index: -1;
     object-fit: cover;
     position: absolute;
-    width: 1920px;
+    width: 1902px;
     height: 964px;
     left: 0px;
     top: 0px;
@@ -24,7 +24,7 @@
 
 .bgcolor {
     background: linear-gradient(0deg, rgba(51, 51, 51, 0.87), rgba(51, 51, 51, 0.87));
-    width: 1920px;
+    width: 1902px;
     height: 964px;
 }
 
@@ -44,7 +44,7 @@
 
 .footer {
     position: absolute;
-    width: 1920px;
+    width: 1902px;
     height: 40px;
     bottom: 0;
 }
@@ -140,7 +140,7 @@ box-sizing: border-box;
 
 .separator {
     position: absolute;
-width: 1920px;
+width: 1902px;
 height: 0px;
 left: 0px;
 top: 830px;
