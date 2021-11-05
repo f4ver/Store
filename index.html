@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style/subscribe.css">
     <link rel="stylesheet" href="style/gallery.css">
     <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/app.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
@@ -27,6 +28,7 @@
                         <a href = "8/">Контрагентам </a>
                         <a href = "8/">Дизайнерам </a>
                         <a href = "8/">Вакансии </a>
+                        <div id="like_button_container"></div>
                     </div>
                     <img class = "logo" src = "img/logo.png">
                         <div class = "line-search">
@@ -39,13 +41,39 @@
                             Вход/Регистрация
                         </a>
                         <a href = "8/">
-                            <img class = "favicon-user" src="img/user.png" href = "8/">
+                            <img style="width: 10%;" class = "favicon-user" src="img/user.svg" href = "8/">
                         </a>
                         <a href = "8/">
-                            <img class = "favicon-like" src="img/like.png" href = "8/">
+                            <img style="width: 10%;" class = "favicon-like" src="img/like.svg" href = "8/">
                         </a>
                     </div>
                 </header>
+                <nav>
+                    <div class = "side-logo">
+                        <h4>Logo</h4>
+                    </div>
+                    <ul class="nav-links">
+                        <li class="li"><a href="#">Контрагентам</a></li>
+                        <li class="li"><a href="#">Дизайнерам</a></li>
+                        <li class="li"><a href="#">Вакансии</a></li>
+                        <li class="li"><a href="#">Вход</a></li>
+                        <li style="border-bottom: 2px solid white;" class="li"><a href="#">Регистрация</a></li>
+                        <li style="display: inline-block;border-bottom: 2px solid white;margin-top: 10px;" class="li-a"><a href="#"><img style="width: 20%;" src="img/user.svg"><img style="width: 15%" src="img/like.svg"></a></li>
+                        <li style = "display: inline-block;" class="li-a"><a href="#">
+                            <img src="img/logo/yt.svg">
+                            <img src="img/logo/vk.svg">
+                            <img src="img/logo/fb.svg">
+                            <img src="img/logo/tg.svg">
+                            <img style="width: 7%;" src="img/logo/e.svg">
+                        </a>
+                    </li>
+                    </ul>
+                    <div class="burger">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+                </nav>
                 <p style="font-size: 36px;
                 ">
                     Долго, дорого, богато!
@@ -79,6 +107,7 @@
                     <div class = "bgcolor"></div>
                     <img  class = "main-ring" src = "img/bgc.png">
             </div>
+            <div class="adaptive">
         <div class = "categories">
             <font style = "font-family:'Rubik';font-size: 20px;margin-left: auto;margin-right: auto;
             margin-top: 0;">
@@ -392,5 +421,7 @@
     </div>
 </footer>
 </div>
+</div>
+<script src="/js/app.js"></script>
 </body>
 </html>

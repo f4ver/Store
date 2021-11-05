@@ -19,6 +19,7 @@
 @media all and (max-width:1899px) {
     .store-page {
         width: 100%;
+        height: 100%;
     }
 }
 
@@ -40,7 +41,7 @@
         left: 50px;
     }
 }
-@media all and (max-width:375px) {
+@media all and (max-width:1400px) {
     .first-screen {
         width: 100%;
         height: 80%;
@@ -201,12 +202,12 @@ background: #333333;
 border: 1px solid #FFFFFF;
 box-sizing: border-box;
 }
-@media  (max-width:375px) {
+@media  (max-width:1400px) {
     .catalogBtn {
         width: auto;
         left: auto;
         right: auto;
-        left: 15%;
+        left:25%;
         font-size: 20px;
         margin-top: -100px;
     }
@@ -249,4 +250,12 @@ border: 1px solid #FFFFFF;
     height: 60px;
     margin-right: 20px;
     border-right:1px solid white;
+}
+.adaptive {
+
+}
+@media (max-width:1700px) {
+    .adaptive {
+        display:none;
+    }
 }
